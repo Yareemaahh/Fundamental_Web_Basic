@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Client Server Model</title>
+    <style>
+      video {
+        border-radius: 100px;
+        width: 100px;
+        height: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2 style="text-align: center">The Client Server Model</h2>
+    <p>
+      The <strong>Client-Server Model</strong> is a fundamental concept in
+      network computing, defining how devices (clients) interact with servers to
+      access and share data across a network, such as the internet. This
+      architecture allows distributed systems to operate efficiently, with each
+      component playing a specific role.
+    </p>
+    <h3>How It Works</h3>
+    <ul>
+      <li>
+        <strong>Client:</strong> The client is typically a user's device, like a
+        computer, smartphone, or tablet, which requests information or services
+        from a server. Common examples of clients include web browsers, email
+        apps, or any software that sends requests over a network.
+      </li>
+      <li>
+        <strong>Server:</strong> A server is a specialized machine or software
+        that stores, processes, and serves data or applications. Servers are
+        always online, waiting to respond to client requests. Examples include
+        web servers, file servers, or database servers.
+      </li>
+    </ul>
+    <p>
+      When a client initiates a request (such as entering a web address in a
+      browser), the server processes that request and sends the requested
+      resources (like a web page) back to the client. This back-and-forth
+      exchange enables most online activities, from browsing websites to using
+      cloud-based services.
+    </p>
+    <div>
+      <img
+        src="img/Client-server-model.svg.png"
+        alt="Client Server Model"
+        style="display: block; margin: 0 auto; max-width: 60%; height: auto"
+      />
+    </div>
+    <h3>Key Characteristics</h3>
+    <ol>
+      <li>
+        <strong>Request-Response Cycle:</strong> Clients make requests, and
+        servers respond. The interaction is often stateless, meaning each
+        request is treated independently (like loading a web page), although
+        some systems use session tracking.
+      </li>
+      <li>
+        <strong>Centralization:</strong> Servers store data centrally, ensuring
+        consistency and ease of maintenance. Clients rely on servers to access
+        or manipulate this data.
+      </li>
+      <li>
+        <strong>Scalability:</strong> Servers can handle multiple requests from
+        different clients simultaneously. This enables networks to grow and
+        accommodate many users without overwhelming individual systems.
+      </li>
+      <li>
+        <strong>Security:</strong> Since data resides on servers, they can
+        implement robust security measures to protect sensitive information,
+        while clients only interact with the server without accessing critical
+        backend systems directly.
+      </li>
+    </ol>
+    <h3>Common Examples</h3>
+    <ul>
+      <li>
+        <strong>Web Browsing:</strong> When you type a URL into your browser
+        (the client), it sends a request to a web server, which responds by
+        delivering the website's content.
+      </li>
+      <li>
+        <strong>Email Services:</strong> Email clients like Outlook or Gmail
+        send requests to mail servers to retrieve or send messages.
+      </li>
+      <li>
+        F<strong>ile Sharing:</strong> File servers allow clients to upload,
+        download, or manage files remotely.
+      </li>
+    </ul>
+    <br />
+    <hr />
+    <footer>
+      <div style="text-align: center">
+        <a href="vid/my-vid2.mp4">
+          <video src="vid/my-vid1.mp4" autoplay loop></video>
+        </a>
+        <p>
+          <a
+            href="https://www.instagram.com/kamall_kuri/"
+            target="_blank"
+            style="text-decoration: none; color: black"
+            >@kamall_Kuri</a
+          >
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

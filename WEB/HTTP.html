@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTTP</title>
+    <style>
+      video {
+        border-radius: 100px;
+        width: 100px;
+        height: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="text-align: center">
+      HTTP: The Foundation of Web Communication
+    </h1>
+    <p>
+      <strong>HTTP (Hypertext Transfer Protocol) </strong>is the core protocol
+      that governs how data is exchanged between web clients (like browsers) and
+      web servers over the internet. It's essentially the communication system
+      that allows users to view and interact with websites.
+    </p>
+    <h3>How HTTP Works</h3>
+    <p>
+      HTTP operates on a <mark>request-response</mark> model. Here’s the basic
+      flow:
+    </p>
+    <ol>
+      <li>
+        <strong>Client Request:</strong> When you enter a website’s URL or click
+        a link, your browser (the client) sends an HTTP request to the server
+        hosting that website. This request typically includes the desired
+        resource (e.g., a web page or image) and additional information like the
+        type of browser and data format it can accept.
+      </li>
+      <li>
+        <strong>Server Response:</strong> The server processes the request and
+        sends back an HTTP response. This usually includes the requested content
+        (HTML, images, etc.) or, if something goes wrong, an error message (such
+        as a "404 Not Found").
+      </li>
+    </ol>
+    <div style="text-align: center">
+      <img
+        src="img/http_process_explained.jpg"
+        alt="Http process diagram"
+        style="display: block; margin: 0 auto; max-width: 60%; height: auto"
+      />
+    </div>
+    <h3>Key Components of HTTP</h3>
+    <ol>
+      <li>
+        <strong>Methods:</strong> HTTP defines several request methods, each
+        specifying a different action:
+      </li>
+      <ul>
+        <li>
+          <strong>GET:</strong> Retrieve data from a server (e.g., load a web
+          page).
+        </li>
+        <li>
+          <strong>POST:</strong> Send data to a server (e.g., submit a form).
+        </li>
+        <li>
+          <strong>PUT:</strong> Update or replace existing data on a server.
+        </li>
+        <li><strong>DELETE:</strong> Remove data from a server.</li>
+        <li>
+          <strong>HEAD:</strong> Retrieve only the headers of a response (useful
+          for checking metadata).
+        </li>
+        <li>
+          <strong>OPTIONS:</strong> Get information about the communication
+          options available for a resource.
+        </li>
+      </ul>
+      <li>
+        <strong>URLs:</strong> Uniform Resource Locators (URLs) are the
+        addresses of web resources. When you request a web page, the URL tells
+        the server exactly what content you’re looking for.
+      </li>
+      <li>
+        <strong>Headers:</strong> HTTP headers carry metadata about the request
+        or response. They can include information like content type (e.g., HTML,
+        JSON), caching instructions, or user authentication data.
+      </li>
+      <li>
+        <strong>Status Codes:</strong> HTTP responses include status codes that
+        indicate whether the request was successful, redirected, or encountered
+        an error. Common codes include:
+      </li>
+      <ul>
+        <li>
+          <strong>200 OK:</strong> The request was successful, and the server
+          returned the requested content.
+        </li>
+        <li>
+          <strong>404 Not Found:</strong> The requested resource couldn’t be
+          found on the server.
+        </li>
+        <li>
+          <strong>500 Internal Server Error:</strong> The server encountered an
+          unexpected condition that prevented it from fulfilling the request.
+        </li>
+      </ul>
+    </ol>
+    <h3>HTTP and Security</h3>
+    <p>
+      HTTP, by default, is not secure since the data transmitted between client
+      and server is not encrypted. This is where
+      <strong>HTTPS</strong> (Hypertext Transfer Protocol Secure) comes in.
+      HTTPS uses encryption protocols like SSL/TLS to ensure that data exchanged
+      between the client and server is secure, protecting against eavesdropping
+      or tampering.
+    </p>
+    <h3>Statelessness of HTTP</h3>
+    <p>
+      One of HTTP’s defining features is its <mark>stateless</mark> nature. Each
+      request made by the client is independent; the server doesn’t retain any
+      memory of previous requests. To manage sessions (like staying logged in),
+      websites often use cookies or other session management techniques to
+      maintain state across multiple HTTP interactions.
+    </p>
+    <div style="text-align: center">
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/w0QbnxKRD0w?si=Wi-pmk6ACbv544in"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <br />
+    <hr />
+    <footer>
+      <div style="text-align: center">
+        <a href="vid/my-vid2.mp4">
+          <video src="vid/my-vid1.mp4" autoplay loop></video>
+        </a>
+        <p>
+          <a
+            href="https://www.instagram.com/kamall_kuri/"
+            target="_blank"
+            style="text-decoration: none; color: black"
+            >@kamall_Kuri</a
+          >
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
