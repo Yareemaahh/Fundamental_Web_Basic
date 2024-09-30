@@ -3,10 +3,11 @@
 web development fundamental basics
 created by industrial training STUDENTS at pantami digital age hub
 
-- [ADAMU RILWANU RILWANU](https://github.com/Arilwan12)
+
 - [ADAMU MUHAMMAD MUHAMMAD](https://github.com/AdamsGeeky)
 - [KAMALUDDEN IBRAHIM ISAH](https://github.com/Kamall-kuri)
-- ABDULQADIR ADAMU
+- [ABDULKADIR ADAMU](https://github.com/ABDULDEV-dev)
+- [ADAMU RILWANU RILWANU](https://github.com/Arilwan12)
 - USMAN SHEHU
 - MUSTAPHA BELLO
 - MUHAMMAD
