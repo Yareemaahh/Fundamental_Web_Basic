@@ -1,18 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FBJ6P3RNT3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FBJ6P3RNT3');
+</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Data travel/CSS/STYLE.css">
     <title>HOW DATA TRAVEL</title>
 </head>
 <body>
-    <a href="../index.html">Home</a>
+    
     <center>
-        <h1>HOW DATA TRAVEL?</h1>
-        </div>
-        <img src="./images/data.jpeg" alt="photo">
+        <header>
+            <button><a href="../index.html"> Home </a></button>
 
+        <h1 style="text-align: center; display: inline;">HOW DATA TRAVEL?</h1>
+         
+        </header>
+        </center>
+
+<!-- IP ADDRESS -->
+    <article>
+        <p><strong>DATA</strong> Can Travel Over Internet Through Diffrent Processes Which are: </p>
+<dl>
+    <dt><p id="topic">1. IP ADDRESS:</p></dt>
+        <dd><p>An Internet Protocol (IP) address is a unique numerical identifier for every device 
+            or network that connects to the internet. Typically assigned by an internet service 
+            provider (ISP), an IP address is an online device address used for 
+            communicating across the internet.</p></dd>
+            <ol type="i">
+                <p id="topic">TYPES OF IP ADDRESS.</p>
+
+                <li class="order"> IPv4 (Internet Protocol version 4): </li>
+                <br>
+                    <ul>
+                        <li>Format: 32-bit numeric address written as four decimal numbers separated by periods (e.g., 192.168.1.1).</li>
+                        <li>Example: 172.16.254.1</li>
+                        <li>Limited address space, supporting about 4.3 billion unique addresses.
+                        </li>
+                    </ul>
+                    <br>
+                    <li class="order"> IPv6 (Internet Protocol version 6):</li>
+                    <br>
+                    <ul>
+                        <li>Format: 128-bit alphanumeric address written as eight groups of four hexadecimal digits,
+                            separated by colons (e.g., 2001:0db8:85a3:0000:0000:8a2e:0370:7334).</li>
+                        <li>Example: 2001:0db8:85a3::8a2e:0370:7334</li>
+                        <li>Expanded address space to accommodate the growing number of internet-connected devices.</li>
+                    </ul>
+            </ol>
+    
+</dl>
+<center>
+<figure>
+    <img src="../Data travel/images/IP ADD.webp" alt="TYPES OF IP ADDRESS">
+    <figcaption> Fig 1 - Types Of IP Address </figcaption>
+</figure>
+        </center>
+    </article>
+<br>
+<!-- DOMAIN NAME -->
+<article>
+    <dl>
+        <dt><p id="topic">2. DOMAIN NAME:</p></dt>
+          <dd><p>A domain name is a human-readable address used to access websites on the internet.
+             Instead of using a numeric IP address (e.g., 192.168.1.1),
+             domain names allow people to easily remember and find websites.
+             A domain name typically consists of two main parts:</p></dd>
+
+             <p id="topic">PARTS OF DOMAIN NAME.</p>
+<ol type="i">
+             <li class="order"> Second-level domain (SLD): </li>
+             <dd><p>This is the main part of the domain, like "google" in google.com.</p></dd>
+                 <li class="order"> Top-level domain (TLD):</li>
+                <dd><p>Top-level domain (TLD): This is the extension that comes after the SLD,
+                     like ".com", ".org", ".net", or country-specific ones like ".ng" for Nigeria.
+                </p></dd>
+                </ol>
+
+                <dd><p id="topic">For example, in "www.example.com":</p>
+                <ol type="i">
+                    <li>"example" is the SLD</li>
+                    <li>".com" is the TLD</li>
+                </ol>
+                    
+                    <p>Domain names are translated into IP addresses using a system called DNS (Domain Name System),
+                    allowing users to reach a website without memorizing IP addresses.</p> 
+                    </p></dd>
+         
+ 
+
+    </dl>
+</article>
+<br>
+<!-- DOMAIN NAME SYSTEM -->
+<article>
+    <dl>
+        <dt><p id="topic">3. DOMAIN NAME SYSTEM:</p></dt>
+          <dd><p>The Domain Name System (DNS) is a system that translates human-readable domain names (like www.example.com) 
+            into machine-readable IP addresses (like 192.0.2.1).
+             This process allows users to access websites and services on the internet using easy-to-remember domain names 
+             rather than needing to remember numerical IP addresses.
+
+          </p></dd>
+
+             <p id="topic">How DNS Works:</p>
+
+             <li class="order"> User Types a Domain Name:</li>
+             <dd><p>When a user enters a domain name into their browser,
+                 the browser first checks if it has the IP address stored locally (in a cache).
+             </p></dd>
+                 <li class="order"> Query to DNS Resolver:</li>
+                <dd><p>Query to DNS Resolver: If not cached, 
+                    the request is sent to a DNS resolver (usually provided by the internet service provider) 
+                    which begins the lookup process</p></dd>
+
+                <li class="order">Recursive Queries:</li>
+                <ul>
+                    <li>The DNS resolver contacts Root DNS servers, 
+                        which point it to the TLD DNS servers (e.g., for .com, .org, etc.).</li>
+                    <li>The TLD DNS server then points to the authoritative DNS server for the specific domain
+                         (e.g., for example.com).
+                    </li>
+                    <li>The authoritative server holds the actual IP address associated with the domain 
+                        and returns it to the DNS resolver.
+                    </li>
+                </ul>
+                <li class="order"> IP Address is Returned:</li>
+                <dd><p>IP Address is Returned: The resolver sends the IP address back to the user's browser,
+                     which can now communicate with the website’s server and display the site.</p></dd>
+         
+ 
+
+    </dl>
+    <br>
+    <CENTER>
+    <figure>
+        <img src="../Data travel/images/DNS.jpg" alt="DOMAIN NAME SYSTEM ">
+        <figcaption>FIG2 -DOMAIN NAME SYSTEM ILLUSTRATION</figcaption>
+    </figure>
+    </CENTER>
+    <details>
+        <summary><p id="topic">Recursive queries in summary</p></summary>
+        <p>In summary, recursive queries enable users to enter simple domain names, 
+            while the DNS resolver efficiently handles the process of obtaining
+             the IP address by querying multiple DNS servers behind the scenes.
+        </p>
+    </details>
+</article>
+<br>
+<!-- UNIFORM RESOURCE LOCATOR -->
+<article>
+    <dl>
+        <dt><p id="topic">4. UNIFORM RESOURCE LOCATOR(URL):</p></dt>
+          <dd><p></p></dd>
+
+             <p id="topic"></p>
+
+             <li class="order">  </li>
+             <dd><p>.</p></dd>
+                 <li class="order"> </li>
+                <dd><p>
+                </p></dd>
+
+          
+         
+ 
+
+    </dl>
+</article>
+<center>
 <footer>
+    <hr>
+    
     <p>&copy; geekink 2024.</p>
 </footer>
     </center>
