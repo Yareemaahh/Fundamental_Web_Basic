@@ -12,4 +12,4 @@ created by industrial training STUDENTS at pantami digital age hub
 - MUSTAPHA BELLO
 - MUHAMMAD
 - KHADEJA HAYATU
-- USMAN IBRAHIM KUNJI
+- [USMAN IBRAHIM KUNJI](https://github.com/Ibrahim-kunji)
