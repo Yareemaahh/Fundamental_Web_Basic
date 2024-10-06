@@ -1,11 +1,11 @@
 *{
-    background-color: aquamarine;
+    background-color: white ;
 
 
 }
 header {
     border: double;
-    border-color: green;
+    border-color: navy;
     height: 50px;
     padding: 1%;
 }
@@ -44,6 +44,7 @@ p {
 
 hr {
      border: double;
+    
 }
 
 div {
